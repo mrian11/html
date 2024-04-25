@@ -1,0 +1,553 @@
+
+@media(min-width:1200px)  {
+    
+}
+
+@media(min-width:992px)  {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; /* Adjust this value as needed */
+        left: 0;
+        background-color: #0E0E0E;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-toggle:checked + .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+}
+
+@media(min-width:480px)  {
+    
+}
+
+@media(min-width:320px)  {
+    
+}
+
+
+
+/* HEADER */
+html {
+    box-sizing: border-box;
+ 
+    /* -moz-tab-size: 4;
+    -o-tab-size: 4; */
+    tab-size: 4;
+   
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+/* * {
+    box-sizing: inherit;
+} */
+
+body {
+    padding: 0;
+
+    display: flex;
+  flex-wrap: wrap;
+
+    height: 100vh;
+
+ background-color: #333;
+} 
+
+
+ul {
+    color: #F2F2F2;
+    /* margin: 0;
+    padding: 0; */
+}
+
+li {
+
+    display: inline-block;
+}
+
+.header {
+/*     padding: 3px; 
+    background-color: #F2F2F2;
+    color: white; */ 
+    /* --bs-gutter-x: 1.5rem; */
+    /* --bs-gutter-y: 0; */
+    width: 100%;
+   
+    display: flex;
+}
+
+.container-fluid {
+    text-align: center;
+    margin: 0 auto;
+}
+.header__inf_title {
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__inf_title-lf {
+    display: flex;
+    align-items: center;
+    width: 1;
+    height: 80px;
+    left: -0px;
+    background: #0E0E0E;
+}
+.header__inf_title-lf a img {
+    width: 120px;
+    height: auto;
+    /* margin-right: 20px; */
+    margin-right: 55px;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1; 
+    top:  0  ; 
+   left: 10;
+}
+
+
+.form-control {
+    margin-left: 10px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: auto; /* Adjust this value as needed */
+    left: 0;
+    background-color: #0E0E0E;
+    width: 100%;
+    text-align: center;
+}
+
+.menu__item {
+    margin-right: 20px;
+}
+
+.menu__item a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+
+.menu__item1 a {
+    width: 60px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.menu__item2 {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu__item2 a {
+    position: relative;
+    width: 126px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2;
+}
+
+.menu__item2 a:hover {
+    text-decoration: underline;
+}
+
+.menu__item3 {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu__item3 a {
+    position: relative;
+    width: 84px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2; /* Задайте кольор тексту, якщо вам потрібно */
+    text-decoration: none;
+}
+
+.menu__item3 a:hover {
+    text-decoration: underline;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu__item a:hover {
+    text-decoration: underline;
+}
+
+.header__inf_title-rg {
+    margin-right: 15px ;
+}
+
+.header__inf_title-rg img {
+    margin-right: 10px;
+}
+
+.person-circle-icon {
+    background:#00b84a;
+    border-radius: 18px;
+}
+
+/* HEADER */
+
+.col-md-3 {
+
+    flex-direction: column;
+    left: 0;
+    /* transition: all 0.2s ease; */
+}
+/* .col-md-3:hover{
+    left:0;
+    transition: all 0.2s ease;
+} */
+.dash {
+background-color: #7400B8;
+width: 235px;
+height: 58px;
+top: 101px;
+left: 20px;
+border-radius: 10px;
+text-align: center;
+}
+
+.dash span{
+
+    width: 97px;
+height: 22px;
+top: 119px;
+left: 62px;
+color: #FFFFFF;
+align-items: center;
+
+}
+.dash_menu {
+    color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    display: none; 
+    margin-bottom: 30px; 
+    flex: 1;
+    padding: 20px; /* відредагуйте відступи за необхідністю */
+    text-align: center;
+background: #0d1717;
+width: 236px;
+height: 520px;
+top: 101px;
+left: 19px;
+border-radius: 10px;
+margin-top: 10px;
+}
+.menu_ds {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.risk-block {
+    width: 180px; /* ширина блоку */
+    height: 30px; /* висота блоку */
+    border: 1px solid #000; /* рамка блоку */
+    margin: 10px; /* відступи блоку */
+    padding: 10px; /* внутрішні відступи блоку */
+}
+.risk {
+    width: 235px;
+height: 1px;
+top: 389px;
+left: 19px;
+ color:#F2F2F2;
+
+}
+.menu_item {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.menu_item a{
+    color: #F2F2F2;
+    opacity: 0.7;
+    padding-bottom: 1px;
+    /* border-bottom: 3px solid transparent; */
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.menu_item:hover a{
+    opacity: 1;
+    border-bottom: 3px solid #F2F2F2;
+}
+/* COL-MD-4 */
+/* LEFT */
+
+/* COL-MD-6 */
+/* MAIN */
+
+.col-md-6 {
+width: auto;
+}
+
+.col-md-7 h3 {
+    font-size: 18px;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+         
+}
+main {
+  float:left;
+  width:100%;
+  padding:0 20px;
+}
+main h2 {
+    display: inline-block;
+    width: 50%;
+
+    /* margin-right: px; */
+}
+main h6 {
+    /* color: #7400B8; Задає колір тексту */
+    text-align: right; /* Вирівнює текст по правому краю */
+    margin-top: 5px; /* Задає відступ зверху */
+    margin-left: 25%;
+    width:auto;
+    display: inline;
+}
+
+
+ 
+
+.c-block1 {
+    position: relative;
+    width: 30%; 
+    margin: 0 10px; 
+    padding: 108px; 
+    color:#f1f1f1;
+    background-color: #0d1717; 
+    border-radius: 18px; 
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    justify-content: center; 
+    align-items: center;
+}
+
+.c-block1 img {
+    width: 200px; 
+    height: 130px;
+ 
+    border-radius: 10px; 
+    position: absolute; 
+    top: 10px; 
+    left: 8px;
+
+   
+}
+
+.c-block1 a{
+    position: absolute; 
+    bottom: 48px; 
+    left: 30%;
+    transform: translateX(-40%); 
+    color: #7400B8;
+    text-decoration: none;
+
+}
+
+.c-block1 span {
+    position: absolute;
+   
+    left: 10%; 
+    transform: translateX(-10%);
+    bottom: 28px;
+  
+}
+.c-block1 h6 {
+    position: absolute;
+  
+    left: -20%; 
+   
+    bottom: 1px;
+    color: #f1f1f1;
+    
+}
+
+.c-block1 .person-circle-icon {
+ 
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    z-index: 9;
+    overflow: auto;
+}
+
+.popup-content {
+    padding: 20px;
+}
+
+.show {
+    display: block;
+}
+
+
+.r-risk {
+    position: absolute; 
+    width: 22px;
+height: 100%;
+top: 0%;
+ left: 0;
+border-radius: 15px 0 0 15px;
+background-color: #7400B8;
+
+}
+
+/* COL-MD-6 */
+/* MAIN */
+
+
+
+
+
+/* COL-MD-4 */
+/* LEFT */
+/* MODAL */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all .0.9s ease-out;
+}
+.modal.show{
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+}
+.modal .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0.7;
+    z-index: 0;
+}
+.modal-window{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .4);
+    background-color: #7400B8;
+    padding: 40px;
+
+}
+
+.btn-close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background: none;
+    opacity: 0.7;
+}
+
+.btn-close:hover {
+ opacity: 1;
+
+}
